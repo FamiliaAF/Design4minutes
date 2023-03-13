@@ -44,3 +44,8 @@ header {
 .song img:hover {
     transform: scale(1.1);
 }
+
+.song-info h3 a {
+    color: #e36a7c;
+    text-decoration: none;
+}
