@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sono:wght@200;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: 'Sono', sans-serif;
+    color: #777;
+}
+
+img {
+    max-width:100%;
+}
+
+h1, h2, h3 {
+    font-family: 'Righteous', cursive;
+}
+
+header {
+    background-color: #e36a7c;
+    color: white;
+    padding: 2em;
+    text-align: center;
+}
+
+.song {
+    border: 1px solid #ccc;
+    margin: 1em 0;
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.song img {
+    width: 200px;
+    transition: 0.5s;
+}
+
+.song img:hover {
+    transform: scale(1.1);
+}
